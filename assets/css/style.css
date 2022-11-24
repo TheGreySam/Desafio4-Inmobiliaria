@@ -1,7 +1,7 @@
 .card img {
     object-fit: cover;
     max-width: 20rem;
-    height: 14rem;
+    height: 12rem;
 }
 
 .btn-calcular {
