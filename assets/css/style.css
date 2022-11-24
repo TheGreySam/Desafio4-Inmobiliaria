@@ -8,7 +8,6 @@
     background-color: orange;
 }
 
-.main-bg {
-    background-color: rgb(105, 175, 0);
-    width: 22rem;
+body {
+    height: 100vh;
 }
