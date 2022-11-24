@@ -1,0 +1,14 @@
+.card img {
+    object-fit: cover;
+    max-width: 20rem;
+    height: 14rem;
+}
+
+.btn-calcular {
+    background-color: orange;
+}
+
+.main-bg {
+    background-color: rgb(105, 175, 0);
+    width: 22rem;
+}
