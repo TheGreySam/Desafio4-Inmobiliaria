@@ -13,7 +13,7 @@ const productos = [
     }
 
     //console.log(html)
-const articulos = [
+var articulos = [
     
     {
         nombre: "Casa de campo",
@@ -81,7 +81,7 @@ let htmlb = ''
                     </div>
     `
    }
-console.log(htmlb)
+//console.log(htmlb)
 
 
 
@@ -89,33 +89,28 @@ console.log(htmlb)
      document.querySelector(".articulos")
 
  articulosSection.innerHTML = htmlb
-// `
-// <div class="card bg-dark text-white text-center m-2" style="width: 18rem;">
-//                         <img class="card-img-top" src="${info.src}" alt="Card image cap">
-//                         <div class="card-body">
-//                             <h5 class="card-title">${nombre}</h5>
-//                             <div class="row m-3">
-//                                 <div class="col-sm">
-//                                     <p>Cuartos: ${articulos.nombre}<span></span></p>
-//                                 </div>
-//                                 <div class="col-sm">
-//                                     <p> Metros: ${articulos.nombre}</p>
-//                                 </div>
-//                             </div>
-//                             <p class="card-text">${articulos.nombre}</p>
-//                             <a href="#" class="btn btn-info">Ver más</a>
-//                         </div>
-//                     </div>
-// `
 
-    
+ function Buscar() {
+    // var input, filter, cards, cardContainer, h5, title, i;
+    // input = document.getElementById("buscarCuartos");
+    // filter = input.value.toUpperCase();
+    // cardContainer = document.getElementById("articulos");
+    // cards = cardContainer.getElementsByClassName("card");
+    // for (i = 0; i < cards.length; i++) {
+    //     title = cards[i].querySelector(".card-body h5.card-title");
+    //     if (title.innerText.toUpperCase().indexOf(filter) > -1) {
+    //         cards[i].style.display = "";
+    //     } else {
+    //         cards[i].style.display = "none";
+    //     }
+    // }
+    var inputCuartos, inputDesde, inputHasta;
+    inputCuartos = document.getElementById("inputCuartos") 
+    inputDesde = document.getElementById("inputDesde") 
+    inputHasta = document.getElementById("inputHasta") 
+    articulos.filter(Number )
+    if (inputCuartos = "cero", inputDesde = "cero", inputHasta = "cero") {
+        alert("Faltan campos por llenar")
+    }
 
-//const inmuebles = {
-//    nombre: "Departamento",
-//    descripcion: "Desde las alturas todo se ve mejor",
-  //  src: "casa5",
-    //cuartos: 3,
-    //metros: 200
-//},
-
-
+}

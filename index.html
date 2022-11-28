@@ -23,19 +23,19 @@
 
                 <div class="card-body">
                     <h5 class="card-title">Cantidad de cuartos:</h5>
-                    <input type="number" class="form-control m-3" aria-label="Cantidad de cuartos">
+                    <input type="number" class="form-control m-3" aria-label="Cantidad de cuartos" id="inputCuartos">
                     <p class="card-text">Metros cuadrados</p>
                     <div class="row m-3">
                         <div class="col-sm">
                             <p>desde:</p>
-                            <input type="number" class="form-control" aria-label="desde">
+                            <input type="number" class="form-control" aria-label="desde" id="inputDesde">
                         </div>
                         <div class="col-sm">
                             <p>hasta:</p>
-                            <input type="number" class="form-control" aria-label="hasta">
+                            <input type="number" class="form-control" aria-label="hasta"  id="inputHasta">
                         </div>
                     </div>
-                    <a href="#" class="btn btn-warning">Buscar</a>
+                    <a href="#" class="btn btn-warning" onclick="Buscar()">Buscar</a>
                 </div>
 
             </nav>
@@ -45,7 +45,7 @@
                     <h5 class="card-title">Total:</h5>
                 
                 </div>
-                <section class="articulos row"></section>
+                <section class="articulos row" id="articulos"></section>
              
             </div>
         </div>
